@@ -56,7 +56,9 @@ for name in names:
     if not found:
         maps.append('Unspecified')
 
-gmaps = googlemaps.Client(key='AIzaSyCzX3Tmt2g8v3P6K2eRtFG8LqBEq4E6O-U')
+#gmaps = googlemaps.Client(key='Insert_Personal_Key')
+
+        
 # results = gmaps.places(query = 'Mercedes-Benz Dealership New Jersey')
 # names_res = results['results']
 #print(names_res[0].keys())
